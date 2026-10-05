@@ -1,0 +1,130 @@
+# ==============================================================================
+# Gitignore for Self DSA (C, C++, and Python)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# C & C++
+# ------------------------------------------------------------------------------
+# Compiled Object and Library files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executables (Windows, Linux, macOS)
+*.exe
+*.out
+*.app
+*.bin
+
+# Debugging and symbol files
+*.dSYM/
+*.pdb
+*.idb
+*.ilk
+*.suo
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Build output directories
+bin/
+build/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# ------------------------------------------------------------------------------
+# Python
+# ------------------------------------------------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Testing, coverage, and type-checking caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ------------------------------------------------------------------------------
+# IDEs and Code Editors
+# ------------------------------------------------------------------------------
+# Visual Studio Code
+.vscode/
+
+# JetBrains (CLion, PyCharm, IntelliJ, etc.)
+.idea/
+*.iml
+
+# Visual Studio
+.vs/
+*.VC.db
+*.opendb
+*.user
+
+# Code::Blocks, Dev-C++, Eclipse
+*.cbp
+*.depend
+*.layout
+*.project
+*.cproject
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# ------------------------------------------------------------------------------
+# Operating System Files
+# ------------------------------------------------------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+
+# ------------------------------------------------------------------------------
+# Logs and Temporary Files
+# ------------------------------------------------------------------------------
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
